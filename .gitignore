@@ -1,0 +1,16 @@
+node_modules/
+outputs/
+target/
+
+# The shipped app is the Electron implementation. Keep the retired Tauri
+# implementation and generated build files out of the public release repo.
+/Cargo.toml
+/Cargo.toml.orig
+/Cargo.lock
+/build.rs
+/gen/
+/src/
+/tauri.conf.json
+/packaging/desktop.template
+/icons/zoho-tray.svg
+*.orig
